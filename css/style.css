@@ -21,11 +21,14 @@ li {
     margin: 5px;
 }
 
+/*set image size*/
+
 img {
     height: 100px;
     width: 100px;
 }
 
+/*Set the color and location of the form in the webpage*/
 .input_form {
     background-color: #3651A1;
     color: #fff;
@@ -34,6 +37,14 @@ img {
     margin: 0 auto;
 }
 
+/*Set the style of the heading at the top of the form*/
+.form_header {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+/*Set the styling of the input sections*/
 input[type="name"],
 input[type="email"],
 input[type="password"] {
@@ -46,18 +57,15 @@ input[type="password"] {
     margin: 10px;
 }
 
-.form_header {
-    text-align: center;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-}
-
+/*Set how the labels for the inputs look and space themselves out*/
 label {
     padding: 0 0 0 10px;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 15px;
 }
 
+
+/*Set how the margin between the label and input looks */
 .txt {
     margin: 10px;
 }
