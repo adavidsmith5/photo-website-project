@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+.page_title {
+    
+}
+
+.heading_pictures {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.input_form {
+    background-color: #3651A1;
+    color: #fff;
+    width: 60%;
+    padding: 20px 5%;
+    margin: 0 auto;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="password"] {
+    width: 35%;
+    background-color: #FFFDF0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.form_header {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+label {
+    padding: 0 0 0 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+.txt {
+    margin: 10px;
+}
+
+
